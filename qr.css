@@ -1,0 +1,51 @@
+ 
+
+ body {
+     background: #d5e1ef;
+     margin: 0;
+     height: 100vh;
+     width: 100%;
+     display: grid;
+     place-items: center;
+ }
+
+ .container {
+     position: relative;
+     border-radius: 20px;
+     height: 450px;
+     width: 290px;
+     background: white;
+ }
+
+ .container-image {
+     position: absolute;
+     border-radius: 8px;
+     height: 260px;
+     width: 270px;
+     left: 10px;
+     top: 10px;
+ }
+
+ .text1 {
+     color: #243048;
+     position: absolute;
+     text-align: center;
+     top: 270px;
+     left: 7px;
+     right: 7px;
+     font-size: 21px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+ }
+
+ .text2 {
+     position: absolute;
+     text-align: center;
+     top: 350px;
+     left: 15px;
+     right: 11px;
+     font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+     color: #81838f;
+ }
