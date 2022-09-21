@@ -10,40 +10,30 @@
  }
 
  .container {
+    padding: 15px 15px 15px 15px;
      position: relative;
      border-radius: 20px;
-     height: 450px;
+     height: 420px;
      width: 290px;
      background: white;
  }
 
  .container-image {
-     position: absolute;
      border-radius: 8px;
      height: 260px;
-     width: 270px;
-     left: 10px;
-     top: 10px;
+     width: 290px;
  }
 
  .text1 {
      color: #243048;
-     position: absolute;
      text-align: center;
-     top: 270px;
-     left: 7px;
-     right: 7px;
      font-size: 21px;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
  }
 
  .text2 {
-     position: absolute;
      text-align: center;
-     top: 350px;
-     left: 15px;
-     right: 11px;
      font-size: 15px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
